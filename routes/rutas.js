@@ -5,7 +5,7 @@ const routerProductos = express.Router();
 const joi = require("joi");
 
 const libros = require("../datos/libros");
-const e = require("express");
+
 
 const productoShema = joi.object({
   id: joi.string().required().label("titulo"),
